@@ -23,4 +23,16 @@ public class GameTest {
     assertEquals(1, game.playerCount());
   }
 
+  @Test
+  public void dealsCards(){
+    game.addPlayer(player1);
+    game.addPlayer(player2);
+    game.deal();
+    assertNotNull(player1.getHand()[0]);
+    assertNotNull(player2.getHand()[1]);
+
+  }
+
+
+
 }

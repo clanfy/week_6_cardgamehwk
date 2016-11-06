@@ -23,7 +23,7 @@ public class CardTest{
 
   @Test
   public void canShowCard(){
-    assertEquals(CardValue.THREE + " of " + SuitType.CLUBS, card.showCard());
+    assertEquals("THREE of CLUBS", card.showCard());
   }
 
 }

@@ -24,6 +24,10 @@ public class Player {
     return this.hand;
   }
 
+  public String showHand(){
+    return this.hand[0].showCard() + ", " + this.hand[1].showCard();
+  }
+
 
 
 }

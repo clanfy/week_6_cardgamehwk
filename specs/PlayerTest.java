@@ -34,10 +34,10 @@ public class PlayerTest {
     assertEquals(card2, player1.getHand()[1]);
   }
 
-  // @Test
-  // public void canShowHand(){
-  //   hand = (card1, card2);
-  //   assertEquals(hand, player1.showHand());
-  // }
+  @Test
+  public void canShowHand(){
+
+    assertEquals("SIX of HEARTS, TWO of DIAMONDS", player1.showHand());
+  }
 
 }

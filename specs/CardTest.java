@@ -20,4 +20,9 @@ public class CardTest{
   public void canGetValue(){
     assertEquals(CardValue.THREE, card.getCardValue());
   }
+
+  // @Test
+  // public void canPrintString(){
+  //   assertEquals
+  // }
 }

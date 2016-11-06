@@ -21,8 +21,9 @@ public class CardTest{
     assertEquals(CardValue.THREE, card.getCardValue());
   }
 
-  // @Test
-  // public void canPrintString(){
-  //   assertEquals
-  // }
+  @Test
+  public void canShowCard(){
+    assertEquals(CardValue.THREE + " of " + SuitType.CLUBS, card.showCard());
+  }
+
 }

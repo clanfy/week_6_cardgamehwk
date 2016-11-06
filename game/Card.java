@@ -1,5 +1,6 @@
 package game;
 import game.*;
+import java.util.*;
 
 public class Card {
 
@@ -27,5 +28,8 @@ public class Card {
     this.cardValue = cardValue;
   }
 
-
+  public String showCard(){
+    return this.cardValue.toString() + " of " + this.suit.toString();
+  }
 }
+

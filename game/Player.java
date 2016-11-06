@@ -24,9 +24,6 @@ public class Player {
     return this.hand;
   }
 
-  public void showHand(){
-    return (this.hand[0] + this.hand[1]);
-  }
 
 
 }
